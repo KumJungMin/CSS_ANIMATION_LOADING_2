@@ -97,8 +97,8 @@ body {
  @keyframes loading {
   0%,
   100% {
-    top: 0;
-    left: 0;
+    top: 0;       /* 시계방향으로 이동하게 top, left설정 */
+    left: 0;  
     background-color: coral;
   }
   25% {
